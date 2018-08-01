@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bootstrap</title>
+    <link href = "bootstrap.min.css" type = "text/css" rel = "stylesheet">
+    <link href = "style.css" type = "text/css" rel = "stylesheet">
+  </head>
+  <body>
+    <button class = "btn btn-warning" onclick = "$(this).hide();">Click me! if you don't like me.. :(</button>
+    <h1 class = "bg-success">Hello World</h1>
+    <h1 class = "bg-warning">Hello World</h1>
+    <h1 class = "bg-info">Hello World</h1>
+    <h1 class = "bg-danger">Hello World</h1>
+
+    <div class = "container">
+      <div class = "row">
+        <div class = "col-md-1 bg-warning">
+          1
+        </div>
+        <div class = "col-md-1 bg-info">
+          2
+        </div>
+        <div class = "col-md-1 bg-danger">
+          3
+        </div>
+        <div class = "col-md-1 bg-success">
+          4
+        </div>
+        <div class = "col-sm-1 bg-warning">
+          5
+        </div>
+        <div class = "col-sm-1 bg-info">
+          6
+        </div>
+        <div class = "col-sm-1 bg-danger">
+          7
+        </div>
+        <div class = "col-sm-1 bg-success">
+          8
+        </div>
+        <div class = "col-xs-1 bg-warning">
+          9
+        </div>
+        <div class = "col-xs-1 bg-info">
+          10
+        </div>
+        <div class = "col-xs-1 bg-danger">
+          11
+        </div>
+        <div class = "col-xs-1 bg-success">
+          12
+        </div>
+      </div>
+    </div>
+    <br>
+    <div class = "container">
+      <div class = "row">
+          <div class = "col-lg-12 bg-success">
+            <p>this is an outer div</p>
+            <div class = "row">
+            <div class = "col-lg-12 bg-danger abc">
+              <p>This is an inner div</p>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <br>
+    <hr>
+
+    <div class = "container">
+      <div class = "row">
+        <div class = "col-md-4 col-md-push-8 bg-cover myImg">
+          This is column 1
+        </div>
+        <div class = "col-md-8 col-md-pull-4 bg-success">
+          This is column 2
+        </div>
+      </div>
+    </div>
+    <hr>
+
+    <div class = "container">
+      <div class = "row">
+        <div class = "col-md-4">
+          <h2>Basic Form</h2>
+          <form action = "" method = "">
+            <div class = "form-group">
+              <label for = "email">Email address</label>
+              <input type = "email" class = "form-control" id = "email" placeholder="Enter your email">
+            </div>
+            <div class = "form-group">
+              <label for = "password">Password</label>
+              <input type = "password" class = "form-control" id = "password" placeholder = "Enter the password">
+            </div>
+            <div class = "form-group">
+              <label for = "file-upload">File upload</label>
+              <input type = "file" class = "form-control" id = "file-upload">
+            </div>
+            <div class = "form-group">
+              <input type = "submit" class = "btn btn-success" value = "Submit">
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <hr>
+
+    <div class = "container">
+        <div class = "row">
+          <div class = "col-md-12">
+            <h2>Inline Form</h2>
+            <form action = "" method = "" class = "form-inline">
+              <div class = "form-group">
+                <label for = "email">Email address</label>
+                <input type = "email" class = "form-control" id = "email">
+              </div>
+              <div class = "form-group">
+                <label for = "password">Password</label>
+                <input type = "password" class = "form-control" id = "password">
+              </div>
+              <div class = "form-group">
+                <label for = "file-upload">File upload</label>
+                <input type = "file" class = "form-control" id = "file-upload">
+              </div>
+              <div class = "form-group">
+                <input type = "submit" class = "btn btn-success" value = "Submit">
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <br>
+      <br>
+      <hr>
+
+      <div class = "container">
+          <div class = "row">
+            <div class = "col-md-12">
+              <h2>Horizontal Form</h2>
+              <form action = "" method = "" class = "form-horizontal">
+                <div class = "form-group">
+                  <label for = "email" class = "col-sm-2 control-label">Email address</label>
+                  <div class = "col-sm-10">
+                    <input type = "email" class = "form-control" id = "email">
+                  </div>
+                </div>
+                <div class = "form-group">
+                  <label for = "password" class = "col-sm-2 control-label">Password</label>
+                  <div class = "col-sm-10">
+                    <input type = "password" class = "form-control" id = "password">
+                  </div>  
+                </div>
+                <div class = "form-group">
+                  <label for = "file-upload" class = "col-sm-2 control-label">File upload</label>
+                  <div class = "col-sm-10">
+                    <input type = "file" class = "form-control" id = "file-upload">
+                  </div>
+                </div>
+                <div class = "form-group">
+                  <div class = "col-sm-10 col-sm-push-2">
+                    <input type = "submit" class = "btn btn-success" value = "Submit">
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <hr>
+
+        <div class = "container">
+          <div class = "row">
+            <div class = "col-md-12">
+              <h2>Horizontal form</h2>
+              <form action = "" method = "" class = "form-horizontal">
+                <div class = "form-group">
+                  <label for = "email" class = "col-md-2 control-label">Email</label>
+                  <div class = "col-md-10">
+                    <input type = "email" class = "form-control" id = "email"> 
+                  </div>
+                </div>
+                <div class = "form-group">
+                  <label for = "password" class = "col-md-2 control-label">Password</label>
+                  <div class = "col-md-10">
+                    <input type = "password" class = "form-control" id = "password">
+                  </div>
+                </div>
+                <div class = "form-group">
+                  <label for = "file" class = "col-md-2 control-label">File upload</label>
+                  <div class = "col-md-10">
+                    <input type = "file" class = "form-control" id = "file">
+                  </div>
+                </div>
+                <div class = "form-group">
+                  <div class = "col-md-10 col-md-push-2">
+                    <input type = "submit" value = "Submit" class = "btn btn-success">
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <br>
+        <br>
+        <hr>
+        <div class = "container">
+          <div class = "row">
+            <div class = "col-md-3 col-md-push-4">
+              <ul class = "list-group">
+                <li class = "list-group-item active"><span class = "badge">10</span>Apple</li>
+                <li class = "list-group-item"><span class = "badge">12</span>Mango</li>
+                <li class = "list-group-item list-group-item-success"><span class = "badge">6</span>Banana</li>
+                <li class = "list-group-item disabled">Orange</li>
+              </ul>
+              <hr>
+              <div class = "list-group">
+                <a href = "#" class = "list-group-item list-group-item-success"><span class = "badge">4</span>Grapes</a>
+                <a href = "#" class = "list-group-item disabled">Pineapple</a>
+                <a href = "#" class = "list-group-item list-group-item-success active">Pomegranate</a>
+                <a href = "#" class = "list-group-item">Melon</a>
+              </div>
+              <hr>
+              <div class = "list-group">
+                <button type = "button" class = "list-group-item">Yamaha R6</button>
+                <button class = "list-group-item">Honda CBR600rr</button>
+                <button type = "button" class = "list-group-item active">Kawasaki Ninja ZX6R</button>
+              </div>
+              <hr>
+              <div class = "list-group">
+                <a href = "#" class = "list-group-item">
+                  <h3 class = "list-group-item-heading">HTML</h3>
+                  <p class = "list-group-item-text">It's a Scripting language</p>
+                </a>
+                <a href = "#" class = "list-group-item">
+                  <h3 class = "list-group-item-heading">Java</h3>
+                  <p class = "list-group-item-text">It's a Programming language</p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr>
+
+        <div class = "container">
+          <h1>Jumbotron</h1>
+          <div class = "jumbotron">
+            <h2>Hello World!</h2>
+            <p>Hi there! Welcome to my Website.</p>
+          </div>
+          <h1>Well</h1>
+          <div class = "well">
+            <h2>Hello World!</h2>
+            <p>Hi there! Welcome to my website.</p>
+          </div>
+        </div>
+        <hr>
+
+        <div class = "jumbotron">
+          <div class = "container">
+            <h2>Hello World!</h2>
+            <p>Hi there! Welcome to my website.</p>
+          </div>
+        </div>
+        <hr>
+
+        <div class = "container">
+          <div class = "jumbotron">
+            <h2>Hello World!</h2>
+            <p>Hi there!Welcome to my website.</p>
+            <a href = "#" class = "btn btn-success btn-lg">Learn more</a>
+          </div>
+        </div>
+        <hr>
+        <br>
+
+        <div class = "container">
+          <div class = "dropdown">
+            <button class = "btn btn-default dropdown-toggle" type = "button" id = "dropdownmenu" data-toggle = "dropdown" aria-haspopup="true"  aria-expanded="true">Dropdown
+              <span class = "caret"></span>
+            </button>
+            <ul class = "dropdown-menu" aria-labelledby="dropdownmenu">
+              <li class = "dropdown-header">category A</li>
+              <li><a href = "#">text1</a></li>
+              <li class = "disabled"><a href = "#">text2</a></li>
+              <li><a href = "#">text3</a></li>
+              <li class = "divider" role = "separator"></li>
+              <li class = "dropdown-header">Category B</li>
+              <li><a href = "#">Some text</a></li>
+            </ul>
+          </div>
+        </div>
+        <br>
+        <br>
+        <br>
+
+        <div class = "container">
+          <div class = "dropdown">
+            <button class = "btn btn-default dropdown-toggle" type = "button" id = "dropdownmenu" data-toggle = "dropdown">Dropdown
+              <span class = "caret"></span>
+            </button>
+            <ul class = "dropdown-menu" aria-labelledby="dropdownmenu">
+              <li class = "dropdown-header">Main content</li>
+              <li><a href = "#">Action</a></li>
+              <li><a href = "#">Another Action</a></li>
+              <li><a href = "#">Some other action</a></li>
+              <li class = "divider"></li>
+              <li class = "dropdown-header">Sub-content</li>
+              <li><a href = "#">Random actions</a></li>
+            </ul>
+          </div>
+          </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <hr>
+        
+        <div class = "container">
+          <div class = "row">
+            <div class = "col-md-12 clr">
+              <br>
+              <br>
+              <ul class = "nav nav-tabs">
+                <li class = "active" role = "presentation"><a href = "#">Home</a></li>
+                <li role = "presentation"><a href = "#">Profile</a></li>
+                <li><a href = "#">Skills</a></li>
+                <li class = "dropdown"><a href = "#" class = "dropdown-toggle" data-toggle = "dropdown">Dropdown <span class = "caret"></span></a>
+                  <ul class = "dropdown-menu">
+                    <li><a href = "#">text1</a></li>
+                    <li><a href = "#">text2</a></li>
+                    <li><a href - "#">text3</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <br>
+              <br>
+              <br>
+            </div>
+          </div>
+        </div>
+        <hr>
+
+        <div class = "container">
+          <div class = "row">
+            <div class = "col-md-3">
+              <button class = "btn btn-primary" data-toggle = "collapse" data-target = "#content">Click</button>
+              <div class = "collapse well" id ="content">
+                <p>Javascript is a lightweight scripting language that is used to make a webpage more interactive. <b>Objects</b> are an important aspect of javascript. In fact, everything in javascript is an object.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br>
+        <hr>
+
+        <div class = "container">
+          <div class = "row">
+            <div class = "col-md-12">
+              <button class = "btn btn-primary" type  = "button" data-toggle = "modal" data-target = "#myModal">Click</button>
+              <div class = "modal fade" id = "myModal">
+                <div class = "modal-dialog">
+                  <div class = "modal-content">
+                    <div class = "modal-header">
+                      <h3>The page says:</h3>
+                    </div>
+                    <div class = "modal-body">
+                      <p>Bootstrap is a HTML, CSS and JavaScript framework which makes it possible to develop websites with ease and fast by using its pre-defined classes.</p>
+                    </div>
+                    <div class = "modal-footer">
+                      <button type = "button" class = "btn btn-default" data-dismiss = "modal">Got it!</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <br>
+        <br>
+        <br>
+        <br>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src = "js/bootstrap.min.js"></script>
+  </body>
+</html>
