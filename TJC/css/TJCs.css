@@ -1,0 +1,70 @@
+body {
+	font-family : courier, monospace;
+	font-size : 14px;
+	background-color : #b1b1b1b1;
+	padding : 20px;
+	letter-spacing : 0.20em;
+}
+
+#verse {
+	padding-top : 30px;
+	text-transform : uppercase;
+	text-align : center;
+}
+
+.num {
+	text-align : right;
+}
+
+.hymns {
+	padding-left : 20px;
+}
+
+.service {
+	float : right;
+}
+
+.special {
+	padding-top : 20px;
+	float : left;
+	padding-left : 20px;
+}
+
+.service {
+	letter-spacing : 0.15em;
+	padding-top : 80px;
+	float : right;
+	line-height : 10px;
+	font-size :12px;
+	text-align : right;
+}
+
+.space {
+	padding-left :10px;
+}
+
+
+ul {
+	padding-top : 5px;
+}
+
+#logo {
+	padding-left : 280px;
+}
+
+.theme {
+	text-align : center;
+
+
+
+	padding-left : 250px;  /* Only for regular services */
+
+
+
+	text-transform : uppercase;
+}
+
+.title {
+	text-align : center;
+	text-transform : uppercase;
+}
